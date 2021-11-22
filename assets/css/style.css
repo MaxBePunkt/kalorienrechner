@@ -1,0 +1,119 @@
+/* 
+##################################
+resets / variables / mixins / general classes
+##################################
+*/
+/* 
+Farben: 
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2d666a;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0 2% 0 1%;
+}
+
+h1,
+h2 {
+  margin: 5% auto;
+  text-align: center;
+  color: #6fdbe3;
+}
+
+label {
+  display: block;
+  margin: 2% 0;
+  color: #2c595c;
+}
+
+input,
+select {
+  padding: 1%;
+  border: none;
+  border-radius: 10px;
+}
+
+/* 
+##################################
+all layouts
+##################################
+*/
+/* # # # # #  HEADER # # # # # */
+/* # # # # #  MAIN # # # # # */
+form {
+  width: 40%;
+  padding: 2%;
+  border-radius: 10px;
+  margin: 5vh auto;
+  background: linear-gradient(180deg, #44b3bb 11%, #2d666a 99%);
+}
+
+.wrapDiv {
+  margin: 2% 0;
+}
+
+.wrapDivRadios {
+  display: flex;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* # # # # #  FOOTER # # # # # */
+/* 
+##################################
+buttons / navbars / popups / ...
+##################################
+*/
+button {
+  margin: 10% auto;
+  cursor: pointer;
+  width: 30%;
+  display: block;
+  padding: 2%;
+  border-radius: 10px;
+  border: none;
+  background-color: #6fdbe3;
+  color: #2c595c;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #6fdbe3;
+  background-color: #2c595c;
+}
+
+/*# sourceMappingURL=style.css.map */

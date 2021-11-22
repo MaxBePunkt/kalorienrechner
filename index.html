@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>übungen</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ############# HEADER ############# -->
+    <!-- ######## NAV ######## -->
+    <header>
+
+    </header>
+    <!-- ############# MAIN ############# -->
+    <main>
+        <form action="" onsubmit="return false">
+            <h1>Kalorienrechner</h1>
+            <div class="wrapDiv">
+                <label for="kGroesse">Körpergröße in cm</label>
+                <input type="number" name="kGroesse" id="kGroesse">
+            </div>
+            <div class="wrapDiv">
+                <label for="kAlter">Alter</label>
+                <input type="number" name="kAlter" id="kAlter">
+            </div>
+            <div class="wrapDiv">
+                <label for="kGewicht">Gewicht in kg</label>
+                <input type="number" name="kGewicht" id="kGewicht">
+            </div>
+            <div class="wrapDiv">
+                <label for="kKoeBau">Körperbau</label>
+                <div class="wrapDivRadios">
+                    <input checked type="radio" name="kKoeBau" id="kKoeBauMan">
+                    <p>männlich</p>
+                    <input type="radio" name="kKoeBau" id="kKoeBauWomen">
+                    <p>weiblich</p>
+                </div>
+            </div>
+            <div class="wrapDiv">
+                <label for="kAktivitaet">Arbeits- und Freizeitaktivität</label>
+                <select name="kAktivitaet" id="kAktivitaet">
+                    <option value="nur schlafen">nur schlafen</option>
+                    <option value="nur sitzen oder liegend">nur sitzen oder liegend</option>
+                    <option value="Ausschließlich sitzend">Ausschließlich sitzend</option>
+                    <option value="meistens sitzend">meistens sitzend</option>
+                    <option value="Ausschließlich stehend">Ausschließlich stehend</option>
+                    <option value="körperlich anstrengend">körperlich anstrengend</option>
+                </select>
+            </div>
+            <button onclick="calcKalo()">BERECHNEN</button>
+            <div class="wrapDiv">
+                <h2>Ergebnis</h2>
+                <div class="result">
+                    <p>Grundumsatz</p>
+                    <p id="resultGrund"></p>
+                </div>
+                <div class="result">
+                    <p>Gesamtumsatz</p>
+                    <p id="resultGesamt"></p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <!-- ############# FOOTER ############# -->
+    <footer>
+
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

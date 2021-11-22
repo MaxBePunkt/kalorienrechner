@@ -1,0 +1,5 @@
+// sass --watch assets/scss/main.scss assets/css/style.css
+@import "_base.scss";
+@import "_layout.scss";
+@import "_components.scss";
+@import "mediaQueries.scss";

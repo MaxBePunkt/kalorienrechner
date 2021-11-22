@@ -1,0 +1,21 @@
+/* 
+##################################
+buttons / navbars / popups / ...
+##################################
+*/
+button {
+  margin: 10% auto;
+  cursor: pointer;
+  width: 30%;
+  display: block;
+  padding: 2%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(111, 219, 227);
+  color: rgb(44, 89, 92);
+  transition: 0.5s;
+}
+button:hover {
+  color: rgb(111, 219, 227);
+  background-color: rgb(44, 89, 92);
+}

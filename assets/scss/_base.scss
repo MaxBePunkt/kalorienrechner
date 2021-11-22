@@ -1,0 +1,56 @@
+/* 
+##################################
+resets / variables / mixins / general classes
+##################################
+*/
+/* 
+Farben: 
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2d666a;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+p {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0 2% 0 1%;
+}
+h1,
+h2 {
+  margin: 5% auto;
+  text-align: center;
+  color: rgb(111, 219, 227);
+}
+label {
+  display: block;
+  margin: 2% 0;
+  color: rgb(44, 89, 92);
+}
+input,
+select {
+  padding: 1%;
+  border: none;
+  border-radius: 10px;
+}
